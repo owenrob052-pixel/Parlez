@@ -1,4 +1,4 @@
-const CACHE_NAME = 'parlez-cache-v16';
+const CACHE_NAME = 'parlez-cache-v21';
 const urlsToCache = [
   './',
   './index.html',

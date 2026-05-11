@@ -7,8 +7,8 @@
     <meta name="description" content="Master the 2000 most common French words with intensive drilling. No lives, no limits.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=16">
-    <link rel="stylesheet" href="gamification.css?v=16">
+    <link rel="stylesheet" href="style.css?v=21">
+    <link rel="stylesheet" href="gamification.css?v=21">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#0a192f">
 </head>
@@ -121,23 +121,6 @@
                     <input type="text" id="type-input" class="type-input" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Type your answer...">
                     <button id="type-submit" class="submit-btn" onclick="app.checkTyped()">Check</button>
                 </div>
-                <!-- French Accent Bar (shown when typing in French) -->
-                <div id="accent-bar" style="display:none;">
-                    <button class="accent-btn" onclick="app.insertAccent('é')">é</button>
-                    <button class="accent-btn" onclick="app.insertAccent('è')">è</button>
-                    <button class="accent-btn" onclick="app.insertAccent('ê')">ê</button>
-                    <button class="accent-btn" onclick="app.insertAccent('ë')">ë</button>
-                    <button class="accent-btn" onclick="app.insertAccent('à')">à</button>
-                    <button class="accent-btn" onclick="app.insertAccent('â')">â</button>
-                    <button class="accent-btn" onclick="app.insertAccent('ù')">ù</button>
-                    <button class="accent-btn" onclick="app.insertAccent('û')">û</button>
-                    <button class="accent-btn" onclick="app.insertAccent('ô')">ô</button>
-                    <button class="accent-btn" onclick="app.insertAccent('î')">î</button>
-                    <button class="accent-btn" onclick="app.insertAccent('ï')">ï</button>
-                    <button class="accent-btn" onclick="app.insertAccent('ç')">ç</button>
-                    <button class="accent-btn" onclick="app.insertAccent('œ')">œ</button>
-                    <button class="accent-btn" onclick="app.insertAccent('æ')">æ</button>
-                </div>
 
                 <!-- Feedback -->
                 <!-- Combo Display -->
@@ -229,10 +212,10 @@
         <span id="sprint-pct">0%</span>
     </div>
 
-    <script src="words.js?v=16"></script>
-    <script src="sentences.js?v=16"></script>
-    <script src="gamification.js?v=16"></script>
-    <script src="app.js?v=16"></script>
+    <script src="words.js?v=21"></script>
+    <script src="sentences.js?v=21"></script>
+    <script src="gamification.js?v=21"></script>
+    <script src="app.js?v=21"></script>
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
