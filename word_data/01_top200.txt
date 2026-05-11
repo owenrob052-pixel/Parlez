@@ -1,0 +1,198 @@
+# Top 200 most common French words
+de|of, from
+je|I
+est|is
+pas|not
+le|the (masc.)
+que|that, what
+la|the (fem.)
+vous|you (formal/plural)
+tu|you (informal)
+un|a, one
+et|and
+il|he, it
+ne|not (first part of negation)
+les|the (plural)
+en|in, some
+on|we, one
+une|a, one (fem.)
+ce|this, it
+pour|for
+qui|who, which
+mais|but
+dans|in, inside
+nous|we
+elle|she
+bien|well, good
+si|if, yes (contradicting)
+avec|with
+tout|all, everything
+plus|more, plus
+mon|my (masc.)
+fait|done, made
+moi|me
+oui|yes
+va|goes, is going
+faire|to do, to make
+ils|they (masc.)
+sur|on, upon
+comme|like, as
+être|to be
+ici|here
+ma|my (fem.)
+toi|you (stressed)
+dit|said, told
+lui|him, to him
+où|where
+là|there
+rien|nothing
+cette|this (fem.)
+sont|are (they)
+quand|when
+dire|to say, to tell
+son|his, her, its
+bon|good
+merci|thank you
+très|very
+jamais|never
+aussi|also, too
+avoir|to have
+vraiment|really, truly
+voir|to see
+même|same, even
+maintenant|now
+tous|all (plural)
+peut|can (he/she)
+deux|two
+peu|little, few
+temps|time
+toujours|always
+encore|still, again
+notre|our
+besoin|need
+vie|life
+aller|to go
+fois|time (occurrence)
+donc|so, therefore
+sans|without
+monde|world
+avant|before
+trop|too much
+père|father
+après|after
+homme|man
+femme|woman, wife
+vrai|true
+ans|years
+mal|bad, pain
+mère|mother
+petit|small, little
+maison|house, home
+jour|day
+autre|other, another
+nom|name
+nuit|night
+moins|less, minus
+maman|mom
+moment|moment
+seul|alone, only
+entre|between
+papa|dad
+peur|fear
+fils|son
+trois|three
+famille|family
+travail|work, job
+place|place, square
+fin|end
+eau|water
+terre|earth, ground
+belle|beautiful (fem.)
+mari|husband
+beau|beautiful, handsome
+argent|money, silver
+bonjour|hello, good morning
+raison|reason
+aide|help
+histoire|story, history
+ville|city, town
+ami|friend
+soir|evening
+matin|morning
+fille|daughter, girl
+gens|people
+partie|part
+question|question
+chambre|room, bedroom
+droit|right, law
+main|hand
+rue|street
+long|long
+noir|black
+roi|king
+livre|book
+pays|country
+guerre|war
+coeur|heart
+grand|big, tall, great
+grande|big, tall (fem.)
+jeune|young
+nouveau|new (masc.)
+nouvelle|new (fem.)
+premier|first (masc.)
+première|first (fem.)
+dernier|last (masc.)
+dernière|last (fem.)
+petit|small (masc.)
+petite|small (fem.)
+bras|arm
+visage|face
+chemin|path, way
+fort|strong, loud
+haut|high, top
+bas|low, bottom
+corps|body
+yeux|eyes
+voix|voice
+frère|brother
+soeur|sister
+enfant|child
+enfants|children
+parents|parents
+école|school
+mois|month
+semaine|week
+heure|hour
+minute|minute
+an|year
+feu|fire
+route|road
+porte|door
+air|air
+côté|side
+point|point, dot
+mort|death, dead
+prix|price, prize
+ordre|order
+force|strength, force
+secret|secret
+lettre|letter
+jeu|game
+photo|photograph
+café|coffee, café
+verre|glass
+chien|dog
+lit|bed
+sac|bag
+carte|card, map
+âge|age
+groupe|group
+voyage|trip, travel
+musique|music
+film|movie, film
+bureau|office, desk
+voiture|car
+téléphone|phone
+hôpital|hospital
+police|police
+jardin|garden

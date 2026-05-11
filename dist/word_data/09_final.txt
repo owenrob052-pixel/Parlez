@@ -1,0 +1,275 @@
+# Final batch - common conversational and everyday words
+absolument|absolutely
+actuellement|currently
+ailleurs|elsewhere
+ainsi|thus, so
+apparemment|apparently
+auparavant|before, previously
+autrefois|formerly
+davantage|more
+définitivement|definitely
+désormais|from now on
+dorénavant|henceforth
+effectivement|indeed
+également|also, equally
+éventuellement|possibly
+évidemment|obviously
+finalement|finally
+franchement|frankly
+généralement|generally
+habituellement|usually
+heureusement|fortunately
+immédiatement|immediately
+justement|precisely, exactly
+malheureusement|unfortunately
+naturellement|naturally
+néanmoins|nevertheless
+normalement|normally
+particulièrement|particularly
+personnellement|personally
+progressivement|gradually
+rapidement|rapidly
+récemment|recently
+régulièrement|regularly
+relativement|relatively
+sérieusement|seriously
+sincèrement|sincerely
+suffisamment|sufficiently
+tellement|so much
+totalement|totally
+uniquement|only, solely
+volontiers|gladly, willingly
+# More useful nouns
+absence|absence
+apparence|appearance
+attitude|attitude
+avantage|advantage
+avis|opinion
+capacité|capacity
+caractère|character
+catégorie|category
+cause|cause
+climat|climate
+collection|collection
+communauté|community
+communication|communication
+comportement|behavior
+concept|concept
+conscience|conscience
+construction|construction
+contribution|contribution
+contraire|opposite
+courage|courage
+création|creation
+crise|crisis
+curiosité|curiosity
+danger|danger
+défaut|flaw, default
+demande|request, demand
+dessin|drawing
+détail|detail
+dimension|dimension
+discipline|discipline
+doute|doubt
+droit|right (legal)
+émotion|emotion
+énergie|energy
+engagement|commitment
+ensemble|set, ensemble
+envie|desire, craving
+environnement|environment
+époque|era, period
+équilibre|balance
+essence|essence
+événement|event
+existence|existence
+explication|explanation
+expression|expression
+facteur|factor
+faiblesse|weakness
+foi|faith
+fonction|function
+fortune|fortune
+frontière|border
+génération|generation
+geste|gesture
+habitation|housing
+harmonie|harmony
+héritage|heritage
+identité|identity
+imagination|imagination
+impression|impression
+inconvénient|drawback
+indépendance|independence
+inquiétude|worry
+inspiration|inspiration
+intérêt|interest
+justice|justice
+logique|logic
+majorité|majority
+manière|manner, way
+mémoire|memory
+message|message
+minorité|minority
+mode|fashion, mode
+morale|morals
+nature|nature
+nécessité|necessity
+niveau|level
+norme|norm
+notion|notion
+objet|object
+opinion|opinion
+origine|origin
+ouverture|opening
+patience|patience
+pensée|thought
+personnalité|personality
+perspective|perspective
+phénomène|phenomenon
+plaisir|pleasure
+position|position
+pratique|practice
+principe|principle
+priorité|priority
+profession|profession
+profondeur|depth
+proportion|proportion
+proposition|proposal
+puissance|power
+raison|reason
+rapport|report, relationship
+réaction|reaction
+réalité|reality
+réflexion|reflection
+relation|relationship
+richesse|wealth
+rôle|role
+scène|scene
+sensation|sensation
+sentiment|feeling
+série|series
+service|service
+signal|signal
+signification|meaning
+situation|situation
+source|source
+souvenir|memory
+spécialité|specialty
+style|style
+substance|substance
+succès|success
+surface|surface
+talent|talent
+technique|technique
+tempérament|temperament
+tendance|tendency
+tension|tension
+théorie|theory
+tolérance|tolerance
+tradition|tradition
+transformation|transformation
+unité|unity
+usage|usage
+utilité|usefulness
+valeur|value
+variété|variety
+version|version
+voisinage|neighborhood
+volonté|will, willpower
+zone|zone
+# More everyday items
+allumette|match (fire)
+ampoule|light bulb
+appareil|device
+balai|broom
+balcon|balcony
+baignoire|bathtub
+boîte|box
+bouchon|cap, cork
+brosse|brush
+bureau|desk
+calendrier|calendar
+casserole|saucepan
+cave|cellar
+cendrier|ashtray
+cintre|hanger
+ciseaux|scissors
+coffre|trunk, chest
+commode|dresser
+congélateur|freezer
+couverture|blanket
+drap|sheet
+éponge|sponge
+étagère|shelf
+four|oven
+frigo|fridge
+garage|garage
+grenier|attic
+horloge|clock
+interrupteur|switch
+matelas|mattress
+nappe|tablecloth
+oreiller|pillow
+placard|cupboard
+poêle|frying pan
+poubelle|trash can
+prise|outlet, socket
+radiateur|radiator
+rasoir|razor
+robinet|faucet
+savon|soap
+seau|bucket
+serrure|lock
+tiroir|drawer
+torchon|dish towel
+ventilateur|fan
+# Body and health
+cheville|ankle
+coude|elbow
+côte|rib
+crâne|skull
+cuisse|thigh
+fesse|buttock
+foie|liver
+front|forehead
+hanche|hip
+intestin|intestine
+joue|cheek
+mâchoire|jaw
+menton|chin
+mollet|calf (leg)
+muscle|muscle
+nerf|nerve
+nuque|nape (of neck)
+orteil|toe
+paupière|eyelid
+poignet|wrist
+poitrine|chest
+pouce|thumb
+rein|kidney
+sourcil|eyebrow
+talon|heel
+tempe|temple (head)
+veine|vein
+allergie|allergy
+angine|tonsillitis
+bronchite|bronchitis
+brûlure|burn
+contusion|bruise
+crampe|cramp
+crise cardiaque|heart attack
+entorse|sprain
+fracture|fracture
+grippe|flu
+infection|infection
+inflammation|inflammation
+insomnie|insomnia
+intoxication|poisoning
+migraine|migraine
+nausée|nausea
+otite|ear infection
+rhumatisme|rheumatism
+rhume|cold (illness)
+toux|cough
+vertige|dizziness

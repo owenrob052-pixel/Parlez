@@ -1,0 +1,159 @@
+# Nouns - Objects, Places, Concepts (751-1050)
+chose|thing
+endroit|place
+côté|side
+partie|part
+début|beginning
+milieu|middle
+bout|end, tip
+forme|shape, form
+taille|size
+poids|weight
+couleur|color
+bruit|noise, sound
+lumière|light
+ombre|shadow
+chaleur|heat
+froid|cold (noun)
+odeur|smell
+goût|taste
+toucher|touch
+voiture|car
+train|train
+avion|airplane
+bateau|boat, ship
+vélo|bicycle
+bus|bus
+camion|truck
+moto|motorcycle
+métro|subway
+gare|train station
+aéroport|airport
+pont|bridge
+magasin|store, shop
+marché|market
+restaurant|restaurant
+boulangerie|bakery
+pharmacie|pharmacy
+banque|bank
+église|church
+musée|museum
+cinéma|cinema
+théâtre|theater
+bibliothèque|library
+poste|post office
+parc|park
+piscine|swimming pool
+stade|stadium
+usine|factory
+ferme|farm
+château|castle
+palais|palace
+tour|tower
+prison|prison
+université|university
+argent|money
+dollar|dollar
+euro|euro
+pièce|coin, room
+billet|ticket, banknote
+compte|account
+dette|debt
+impôt|tax
+emploi|job, employment
+salaire|salary
+travail|work
+projet|project
+entreprise|business, company
+industrie|industry
+commerce|trade, business
+produit|product
+machine|machine
+outil|tool
+papier|paper
+crayon|pencil
+stylo|pen
+cahier|notebook
+page|page
+journal|newspaper
+magazine|magazine
+article|article
+annonce|announcement, ad
+affiche|poster
+programme|program
+idée|idea
+pensée|thought
+opinion|opinion
+problème|problem
+solution|solution
+réponse|answer
+exemple|example
+preuve|proof, evidence
+résultat|result
+succès|success
+échec|failure
+erreur|error, mistake
+danger|danger
+accident|accident
+chance|luck, chance
+surprise|surprise
+plaisir|pleasure
+douleur|pain
+bonheur|happiness
+tristesse|sadness
+colère|anger
+joie|joy
+amour|love
+haine|hatred
+confiance|trust
+respect|respect
+liberté|freedom
+paix|peace
+vérité|truth
+mensonge|lie
+rêve|dream
+espoir|hope
+souhait|wish
+promesse|promise
+excuse|excuse
+pardon|forgiveness
+cadeau|gift
+anniversaire|birthday
+fête|party, celebration
+mariage|wedding
+vacances|vacation
+week-end|weekend
+congé|day off, leave
+rendez-vous|appointment
+réunion|meeting
+cérémonie|ceremony
+spectacle|show
+concert|concert
+exposition|exhibition
+match|match, game
+compétition|competition
+course|race, errand
+promenade|walk, stroll
+balade|stroll
+aventure|adventure
+expérience|experience
+souvenir|memory, souvenir
+habitude|habit
+règle|rule
+loi|law
+gouvernement|government
+politique|politics, policy
+élection|election
+droits|rights
+justice|justice
+tribunal|court
+santé|health
+maladie|illness, disease
+médecin|doctor
+médicament|medicine, drug
+traitement|treatment
+opération|operation
+douleur|pain
+fièvre|fever
+blessure|injury, wound
+cicatrice|scar

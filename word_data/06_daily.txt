@@ -1,0 +1,164 @@
+# Daily life, Travel, Numbers, Time, Phrases (1401-1700)
+chemise|shirt
+pantalon|pants
+robe|dress
+jupe|skirt
+manteau|coat
+veste|jacket
+chaussure|shoe
+chapeau|hat
+ceinture|belt
+lunettes|glasses
+bijou|jewel
+bague|ring
+collier|necklace
+montre|watch
+parapluie|umbrella
+portefeuille|wallet
+clé|key
+téléphone|phone
+ordinateur|computer
+écran|screen
+clavier|keyboard
+souris|mouse (computer)
+internet|internet
+message|message
+adresse|address
+lettre|letter
+timbre|stamp
+enveloppe|envelope
+colis|package
+facteur|mailman
+numéro|number
+chiffre|digit, figure
+moitié|half
+quart|quarter
+double|double
+dizaine|about ten
+centaine|about a hundred
+millier|about a thousand
+million|million
+zéro|zero
+un|one
+deux|two
+trois|three
+quatre|four
+cinq|five
+six|six
+sept|seven
+huit|eight
+neuf|nine
+dix|ten
+onze|eleven
+douze|twelve
+treize|thirteen
+quatorze|fourteen
+quinze|fifteen
+seize|sixteen
+vingt|twenty
+trente|thirty
+quarante|forty
+cinquante|fifty
+soixante|sixty
+cent|hundred
+mille|thousand
+lundi|Monday
+mardi|Tuesday
+mercredi|Wednesday
+jeudi|Thursday
+vendredi|Friday
+samedi|Saturday
+dimanche|Sunday
+janvier|January
+février|February
+mars|March
+avril|April
+mai|May
+juin|June
+juillet|July
+août|August
+septembre|September
+octobre|October
+novembre|November
+décembre|December
+printemps|spring
+été|summer
+automne|autumn, fall
+hiver|winter
+siècle|century
+seconde|second (time)
+instant|instant, moment
+période|period
+durée|duration
+avenir|future
+passé|past
+présent|present
+direction|direction
+nord|north
+sud|south
+est|east
+ouest|west
+gauche|left
+droite|right
+coin|corner
+centre|center
+bord|edge
+distance|distance
+kilomètre|kilometer
+mètre|meter
+centimètre|centimeter
+hauteur|height
+largeur|width
+longueur|length
+surface|surface
+espace|space
+endroit|place, spot
+région|region
+département|department
+capitale|capital
+frontière|border
+passeport|passport
+valise|suitcase
+billet|ticket
+réservation|reservation
+hôtel|hotel
+chambre|room
+étage|floor (level)
+ascenseur|elevator
+sortie|exit
+entrée|entrance
+arrivée|arrival
+départ|departure
+retour|return
+retard|delay
+horaire|schedule
+guichet|counter, ticket window
+bagages|luggage
+plan|plan, map
+guide|guide
+touriste|tourist
+monument|monument
+cathédrale|cathedral
+fontaine|fountain
+statue|statue
+jardin|garden
+fleuve|large river
+côte|coast
+campagne|countryside
+village|village
+quartier|neighborhood
+banlieue|suburb
+trottoir|sidewalk
+carrefour|crossroads
+feu|traffic light
+panneau|sign (road)
+permis|permit, license
+essence|gasoline
+pneu|tire
+moteur|engine
+vitesse|speed
+circulation|traffic
+embouteillage|traffic jam
+piéton|pedestrian
+conducteur|driver
+passager|passenger

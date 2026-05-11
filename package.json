@@ -1,0 +1,20 @@
+{
+  "name": "parlez-french-bootcamp",
+  "version": "1.0.0",
+  "description": "An intensive French language bootcamp trainer.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Antigravity",
+  "license": "ISC",
+  "devDependencies": {
+    "@capacitor/cli": "^8.3.3",
+    "electron": "^34.3.0"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.3.3",
+    "@capacitor/core": "^8.3.3"
+  }
+}

@@ -1,0 +1,223 @@
+# Final push to 2000+ - common words we're still missing
+quelqu'un|someone
+quelque chose|something
+personne|nobody (when used with ne)
+chacun|each one
+certain|certain, some
+plusieurs|several
+autre|other
+autrui|others
+soi|oneself
+lequel|which one
+laquelle|which one (fem.)
+dont|whose, of which
+celui-ci|this one (masc.)
+celle-ci|this one (fem.)
+ceux-ci|these ones
+celles-ci|these ones (fem.)
+pareil|same, similar
+tel|such
+nul|null, no one
+quiconque|whoever
+# Weather and seasons
+température|temperature
+degré|degree
+brouillard|fog
+tempête|storm
+gelée|frost
+grêle|hail
+sécheresse|drought
+inondation|flood
+canicule|heat wave
+brise|breeze
+rosée|dew
+verglas|black ice
+# Profession and workplace
+réunion|meeting
+conférence|conference
+présentation|presentation
+formation|training
+promotion|promotion
+retraite|retirement
+chômage|unemployment
+grève|strike
+syndicat|union
+collègue|colleague
+stagiaire|intern
+candidat|candidate
+entretien|interview
+curriculum|resume
+compétence|skill
+qualification|qualification
+# School and education
+classe|class
+cours|course, class
+matière|subject
+note|grade
+bulletin|report card
+tableau|board, painting
+craie|chalk
+gomme|eraser
+règle|ruler
+trousse|pencil case
+cartable|school bag
+récréation|recess
+cantine|cafeteria
+cour|yard, court
+bibliothèque|library
+dictionnaire|dictionary
+encyclopédie|encyclopedia
+atlas|atlas
+manuel|textbook
+chapitre|chapter
+titre|title
+auteur|author
+personnage|character
+intrigue|plot
+résumé|summary
+# Household chores
+vaisselle|dishes
+lessive|laundry
+ménage|housework
+repassage|ironing
+aspirateur|vacuum cleaner
+balai|broom
+serpillière|mop
+détergent|detergent
+ordures|garbage
+recyclage|recycling
+compost|compost
+# Technology
+application|application
+logiciel|software
+matériel|hardware
+réseau|network
+connexion|connection
+wifi|wifi
+mot de passe|password
+fichier|file
+dossier|folder
+données|data
+sauvegarde|backup
+mise à jour|update
+téléchargement|download
+navigateur|browser
+site|site, website
+lien|link
+page|page
+courriel|email
+pièce jointe|attachment
+imprimante|printer
+scanner|scanner
+batterie|battery
+chargeur|charger
+câble|cable
+# Music and art
+chanson|song
+mélodie|melody
+rythme|rhythm
+harmonie|harmony
+accord|chord
+instrument|instrument
+guitare|guitar
+piano|piano
+violon|violin
+flûte|flute
+tambour|drum
+trompette|trumpet
+orchestre|orchestra
+chorale|choir
+compositeur|composer
+interprète|performer
+scène|stage
+spectacle|performance
+répétition|rehearsal
+critique|review, critic
+tableau|painting
+dessin|drawing
+sculpture|sculpture
+céramique|ceramics
+exposition|exhibition
+galerie|gallery
+oeuvre|work (of art)
+chef-d'oeuvre|masterpiece
+portrait|portrait
+paysage|landscape
+# Emotions deeper
+admiration|admiration
+affection|affection
+agacement|annoyance
+angoisse|anguish
+anxiété|anxiety
+compassion|compassion
+déception|disappointment
+dégoût|disgust
+désespoir|despair
+embarras|embarrassment
+enthousiasme|enthusiasm
+envie|envy
+fierté|pride
+frustration|frustration
+gratitude|gratitude
+honte|shame
+impatience|impatience
+indifférence|indifference
+méfiance|distrust
+mélancolie|melancholy
+nostalgie|nostalgia
+optimisme|optimism
+pessimisme|pessimism
+pitié|pity
+regret|regret
+remords|remorse
+résignation|resignation
+satisfaction|satisfaction
+soulagement|relief
+stupeur|stupor
+sympathie|sympathy
+terreur|terror
+timidité|shyness
+# Final common words
+absolument|absolutely
+apparemment|apparently
+approximativement|approximately
+brièvement|briefly
+clairement|clearly
+complètement|completely
+constamment|constantly
+couramment|fluently
+discrètement|discreetly
+efficacement|efficiently
+énormément|enormously
+entièrement|entirely
+essentiellement|essentially
+excessivement|excessively
+extrêmement|extremely
+facilement|easily
+fréquemment|frequently
+gratuitement|for free
+honnêtement|honestly
+légèrement|slightly
+librement|freely
+longuement|at length
+mécaniquement|mechanically
+modestement|modestly
+mystérieusement|mysteriously
+négligemment|carelessly
+ouvertement|openly
+paisiblement|peacefully
+patiemment|patiently
+poliment|politely
+précédemment|previously
+principalement|mainly
+profondément|deeply
+prudemment|cautiously
+publiquement|publicly
+radicalement|radically
+secrètement|secretly
+silencieusement|silently
+simplement|simply
+spontanément|spontaneously
+strictement|strictly
+subitement|suddenly
+violemment|violently

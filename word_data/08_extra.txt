@@ -1,0 +1,323 @@
+# Additional common words to reach ~2000 (1213-2000)
+# Survival phrases
+s'il vous plaît|please (formal)
+s'il te plaît|please (informal)
+excusez-moi|excuse me
+je suis désolé|I am sorry
+comment allez-vous|how are you (formal)
+comment vas-tu|how are you (informal)
+je ne comprends pas|I don't understand
+parlez-vous anglais|do you speak English
+je voudrais|I would like
+combien ça coûte|how much does it cost
+où sont les toilettes|where are the toilets
+à bientôt|see you soon
+à demain|see you tomorrow
+bonne nuit|good night
+bonne journée|have a nice day
+bon appétit|enjoy your meal
+santé|cheers (toast)
+bienvenue|welcome
+félicitations|congratulations
+bonne chance|good luck
+au secours|help!
+attention|watch out
+d'accord|okay, agreed
+bien sûr|of course
+pas du tout|not at all
+tout à fait|absolutely
+n'importe quoi|anything, nonsense
+tant pis|too bad
+tant mieux|so much the better
+en tout cas|in any case
+de rien|you're welcome
+je t'en prie|you're welcome (informal)
+# More adjectives
+agréable|pleasant
+désagréable|unpleasant
+confortable|comfortable
+inconfortable|uncomfortable
+utile|useful
+inutile|useless
+intéressant|interesting
+ennuyeux|boring
+amusant|amusing, funny
+passionnant|exciting, fascinating
+effrayant|scary
+magnifique|magnificent
+merveilleux|wonderful
+excellent|excellent
+terrible|terrible
+horrible|horrible
+affreux|awful
+formidable|tremendous, great
+remarquable|remarkable
+ordinaire|ordinary
+spécial|special
+unique|unique
+rare|rare
+commun|common
+particulier|particular
+général|general
+principal|main, principal
+secondaire|secondary
+supplémentaire|additional
+suffisant|sufficient
+insuffisant|insufficient
+complet|complete
+incomplet|incomplete
+correct|correct
+incorrect|incorrect
+parfait|perfect
+imparfait|imperfect
+exact|exact
+approximatif|approximate
+précis|precise
+vague|vague
+évident|obvious
+probable|probable
+improbable|improbable
+capable|capable
+incapable|incapable
+responsable|responsible
+disponible|available
+absent|absent
+présent|present
+permanent|permanent
+temporaire|temporary
+régulier|regular
+irrégulier|irregular
+constant|constant
+variable|variable
+stable|stable
+fragile|fragile
+solide|solid
+liquide|liquid
+naturel|natural
+artificiel|artificial
+automatique|automatic
+manuel|manual
+public|public
+privé|private
+officiel|official
+personnel|personal
+professionnel|professional
+national|national
+international|international
+local|local
+mondial|global, worldwide
+humain|human
+animal|animal
+végétal|plant (adj.)
+minéral|mineral
+# More verbs
+abandonner|to abandon
+accompagner|to accompany
+accrocher|to hang, to hook
+admettre|to admit
+adopter|to adopt
+affirmer|to affirm
+agir|to act
+ajouter|to add
+allumer|to light, to turn on
+annoncer|to announce
+apercevoir|to notice, to catch sight of
+appuyer|to press, to lean
+assurer|to assure, to insure
+attacher|to attach, to tie
+attraper|to catch
+augmenter|to increase
+baisser|to lower
+bloquer|to block
+bouger|to move
+briller|to shine
+calculer|to calculate
+célébrer|to celebrate
+charger|to load, to charge
+chasser|to hunt, to chase
+chauffer|to heat
+coller|to glue, to stick
+commander|to order
+communiquer|to communicate
+comparer|to compare
+compléter|to complete
+composer|to compose
+concentrer|to concentrate
+confondre|to confuse
+conseiller|to advise
+conserver|to preserve
+consommer|to consume
+contenir|to contain
+contrôler|to control
+convaincre|to convince
+corriger|to correct
+décevoir|to disappoint
+déclarer|to declare
+décorer|to decorate
+découvrir|to discover
+défendre|to defend
+déranger|to disturb
+descendre|to go down
+désirer|to desire
+détruire|to destroy
+deviner|to guess
+diminuer|to decrease
+diriger|to direct, to manage
+discuter|to discuss
+disparaître|to disappear
+distribuer|to distribute
+diviser|to divide
+dominer|to dominate
+échapper|to escape
+éclairer|to light up
+économiser|to save (money)
+effacer|to erase
+effrayer|to frighten
+élever|to raise
+éliminer|to eliminate
+embrasser|to kiss, to embrace
+émettre|to emit
+émouvoir|to move (emotionally)
+encourager|to encourage
+endommager|to damage
+enlever|to remove
+enrichir|to enrich
+entourer|to surround
+entraîner|to train, to drag
+épouser|to marry
+équiper|to equip
+établir|to establish
+éteindre|to extinguish, to turn off
+étonner|to surprise
+évaluer|to evaluate
+éviter|to avoid
+examiner|to examine
+excuser|to excuse
+exiger|to demand
+fabriquer|to manufacture
+fixer|to fix, to set
+fonctionner|to function, to work
+fournir|to supply
+franchir|to cross, to overcome
+frapper|to hit, to knock
+glisser|to slip, to slide
+goûter|to taste
+guérir|to heal, to cure
+habiter|to live (in a place)
+hésiter|to hesitate
+identifier|to identify
+ignorer|to ignore
+illustrer|to illustrate
+imposer|to impose
+imprimer|to print
+inclure|to include
+indiquer|to indicate
+informer|to inform
+insister|to insist
+inspirer|to inspire
+installer|to install
+interdire|to forbid
+introduire|to introduce
+inventer|to invent
+inviter|to invite
+isoler|to isolate
+lancer|to throw, to launch
+libérer|to free, to release
+livrer|to deliver
+louer|to rent, to praise
+maintenir|to maintain
+manipuler|to manipulate
+marquer|to mark, to score
+mélanger|to mix
+menacer|to threaten
+mesurer|to measure
+modifier|to modify
+multiplier|to multiply
+noter|to note
+nourrir|to feed
+observer|to observe
+occuper|to occupy
+organiser|to organize
+pardonner|to forgive
+partager|to share
+pénétrer|to penetrate
+perfectionner|to perfect
+placer|to place
+plonger|to dive, to plunge
+posséder|to possess
+poursuivre|to pursue, to continue
+pratiquer|to practice
+préciser|to specify
+préférer|to prefer
+prévenir|to warn, to prevent
+prévoir|to foresee, to plan
+priver|to deprive
+procéder|to proceed
+profiter|to take advantage
+programmer|to program
+projeter|to project, to plan
+publier|to publish
+punir|to punish
+quitter|to leave
+rassembler|to gather
+réagir|to react
+réaliser|to realize, to achieve
+recommander|to recommend
+rédiger|to write, to draft
+réduire|to reduce
+réfléchir|to reflect, to think
+reformer|to reform
+refroidir|to cool down
+regretter|to regret
+rejeter|to reject
+remarquer|to notice
+remercier|to thank
+remplacer|to replace
+remplir|to fill
+renoncer|to give up
+renseigner|to inform
+répéter|to repeat
+résister|to resist
+résoudre|to solve
+respecter|to respect
+respirer|to breathe
+retirer|to withdraw
+retourner|to return
+réunir|to gather, to unite
+révéler|to reveal
+saluer|to greet
+satisfaire|to satisfy
+sauver|to save
+sélectionner|to select
+séparer|to separate
+signaler|to report, to signal
+signer|to sign
+simplifier|to simplify
+situer|to locate
+sonner|to ring
+souhaiter|to wish
+soulever|to lift
+soumettre|to submit
+soupçonner|to suspect
+soutenir|to support
+stopper|to stop
+subir|to undergo
+succéder|to succeed (follow)
+suggérer|to suggest
+supprimer|to delete, to remove
+survivre|to survive
+témoigner|to testify
+tenter|to attempt
+terminer|to finish
+tester|to test
+transformer|to transform
+transmettre|to transmit
+transporter|to transport
+traiter|to treat, to process
+trembler|to tremble
+triompher|to triumph
+tromper|to deceive
+troubler|to disturb
+vérifier|to verify
+verser|to pour
+visiter|to visit (a place)

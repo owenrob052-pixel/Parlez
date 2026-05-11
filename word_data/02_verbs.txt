@@ -1,0 +1,175 @@
+# Common verbs (201-450)
+parler|to speak, to talk
+trouver|to find
+prendre|to take
+donner|to give
+penser|to think
+demander|to ask
+rester|to stay, to remain
+laisser|to leave, to let
+sortir|to go out, to leave
+commencer|to begin, to start
+aider|to help
+chercher|to look for, to search
+regarder|to look at, to watch
+attendre|to wait
+écouter|to listen
+entendre|to hear
+comprendre|to understand
+arrêter|to stop
+essayer|to try
+travailler|to work
+rentrer|to return home
+changer|to change
+entrer|to enter
+manger|to eat
+jouer|to play
+mourir|to die
+vivre|to live
+dormir|to sleep
+boire|to drink
+acheter|to buy
+payer|to pay
+gagner|to win, to earn
+perdre|to lose
+apprendre|to learn
+montrer|to show
+oublier|to forget
+tomber|to fall
+appeler|to call
+envoyer|to send
+tirer|to pull, to shoot
+garder|to keep, to guard
+occuper|to occupy
+sauver|to save, to rescue
+retrouver|to find again
+revenir|to come back
+partir|to leave, to depart
+tenir|to hold
+courir|to run
+porter|to carry, to wear
+mettre|to put, to place
+passer|to pass, to spend (time)
+devenir|to become
+servir|to serve
+suivre|to follow
+rendre|to return, to give back
+connaître|to know (person/place)
+savoir|to know (fact)
+croire|to believe
+vouloir|to want
+pouvoir|to be able to, can
+devoir|to have to, must
+aimer|to love, to like
+détester|to hate
+espérer|to hope
+ouvrir|to open
+fermer|to close
+lire|to read
+écrire|to write
+conduire|to drive
+choisir|to choose
+construire|to build
+casser|to break
+couper|to cut
+toucher|to touch
+sentir|to feel, to smell
+pleurer|to cry
+rire|to laugh
+chanter|to sing
+danser|to dance
+nager|to swim
+voler|to fly, to steal
+cacher|to hide
+brûler|to burn
+jeter|to throw
+pousser|to push
+tuer|to kill
+battre|to beat, to fight
+vendre|to sell
+asseoir|to sit
+lever|to raise, to get up
+monter|to go up, to climb
+descendre|to go down
+marcher|to walk
+expliquer|to explain
+raconter|to tell (a story)
+accepter|to accept
+refuser|to refuse
+décider|to decide
+proposer|to propose, to suggest
+réussir|to succeed
+continuer|to continue
+arranger|to arrange, to fix
+préparer|to prepare
+créer|to create
+utiliser|to use
+protéger|to protect
+rencontrer|to meet
+emmener|to take (someone)
+amener|to bring (someone)
+apporter|to bring (thing)
+emporter|to take away
+quitter|to leave (a place/person)
+manquer|to miss
+rappeler|to call back, to remind
+répondre|to answer, to reply
+poser|to put down, to ask (question)
+compter|to count
+imaginer|to imagine
+rêver|to dream
+souvenir|to remember
+oser|to dare
+mentir|to lie
+promener|to walk (stroll)
+voyager|to travel
+exister|to exist
+sembler|to seem
+paraître|to appear, to seem
+produire|to produce
+obtenir|to obtain
+recevoir|to receive
+offrir|to offer, to give (gift)
+permettre|to allow, to permit
+empêcher|to prevent
+risquer|to risk
+mériter|to deserve
+souffrir|to suffer
+supporter|to bear, to support
+intéresser|to interest
+plaire|to please
+réveiller|to wake up
+coucher|to put to bed, to lie down
+habiller|to dress
+laver|to wash
+promener|to take for a walk
+inquiéter|to worry
+calmer|to calm
+améliorer|to improve
+développer|to develop
+participer|to participate
+représenter|to represent
+considérer|to consider
+reconnaître|to recognize
+appartenir|to belong
+exprimer|to express
+installer|to install, to settle
+présenter|to present, to introduce
+prêter|to lend
+étudier|to study
+enseigner|to teach
+dessiner|to draw
+peindre|to paint
+photographier|to photograph
+cuisiner|to cook
+nettoyer|to clean
+ranger|to tidy up
+réparer|to repair, to fix
+conduire|to drive
+stationner|to park
+traverser|to cross
+tourner|to turn
+avancer|to move forward
+reculer|to move backward
+accélérer|to accelerate
+freiner|to brake

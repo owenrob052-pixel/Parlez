@@ -1,0 +1,177 @@
+# Nouns - People, Body, Home, Food (451-750)
+personne|person
+homme|man
+femme|woman
+garçon|boy
+bébé|baby
+monsieur|sir, mister
+madame|madam, Mrs.
+docteur|doctor
+capitaine|captain
+avocat|lawyer
+patron|boss
+chef|chief, chef
+président|president
+général|general
+professeur|teacher, professor
+étudiant|student
+voisin|neighbor
+inconnu|stranger
+ennemi|enemy
+victime|victim
+héros|hero
+voleur|thief
+soldat|soldier
+prisonnier|prisoner
+invité|guest
+client|client, customer
+collègue|colleague
+équipe|team
+couple|couple
+peuple|people, nation
+foule|crowd
+société|society
+tête|head
+cheveux|hair
+oeil|eye
+oreille|ear
+nez|nose
+bouche|mouth
+dent|tooth
+lèvre|lip
+langue|tongue, language
+gorge|throat
+épaule|shoulder
+dos|back
+ventre|belly, stomach
+jambe|leg
+genou|knee
+pied|foot
+doigt|finger
+ongle|nail
+peau|skin
+sang|blood
+os|bone
+cerveau|brain
+poumon|lung
+estomac|stomach
+cuisine|kitchen
+salon|living room
+salle|room, hall
+chambre|bedroom
+salle de bain|bathroom
+escalier|staircase
+mur|wall
+plafond|ceiling
+plancher|floor
+fenêtre|window
+toit|roof
+clé|key
+meuble|furniture
+chaise|chair
+table|table
+canapé|couch, sofa
+armoire|wardrobe
+miroir|mirror
+rideau|curtain
+lampe|lamp
+coussin|cushion
+tapis|carpet, rug
+pain|bread
+fromage|cheese
+viande|meat
+poisson|fish
+poulet|chicken
+oeuf|egg
+riz|rice
+pâtes|pasta
+soupe|soup
+salade|salad
+légume|vegetable
+fruit|fruit
+pomme|apple
+orange|orange
+banane|banana
+fraise|strawberry
+tomate|tomato
+pomme de terre|potato
+carotte|carrot
+oignon|onion
+ail|garlic
+sel|salt
+sucre|sugar
+beurre|butter
+huile|oil
+lait|milk
+thé|tea
+vin|wine
+bière|beer
+jus|juice
+gâteau|cake
+chocolat|chocolate
+bonbon|candy
+glace|ice cream, ice
+repas|meal
+petit déjeuner|breakfast
+déjeuner|lunch
+dîner|dinner
+recette|recipe
+assiette|plate
+couteau|knife
+fourchette|fork
+cuillère|spoon
+tasse|cup
+bouteille|bottle
+serviette|napkin, towel
+animal|animal
+chat|cat
+oiseau|bird
+cheval|horse
+cochon|pig
+vache|cow
+mouton|sheep
+lapin|rabbit
+poule|hen
+canard|duck
+serpent|snake
+souris|mouse
+loup|wolf
+lion|lion
+ours|bear
+singe|monkey
+éléphant|elephant
+tigre|tiger
+papillon|butterfly
+fourmi|ant
+abeille|bee
+araignée|spider
+arbre|tree
+fleur|flower
+herbe|grass
+feuille|leaf
+branche|branch
+racine|root
+graine|seed
+forêt|forest
+montagne|mountain
+rivière|river
+lac|lake
+mer|sea
+océan|ocean
+plage|beach
+île|island
+désert|desert
+colline|hill
+vallée|valley
+ciel|sky
+nuage|cloud
+pluie|rain
+neige|snow
+vent|wind
+soleil|sun
+lune|moon
+étoile|star
+orage|storm
+tonnerre|thunder
+éclair|lightning
+arc-en-ciel|rainbow

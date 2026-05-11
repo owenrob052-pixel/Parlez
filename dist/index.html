@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parlez — French Vocabulary Trainer</title>
+    <meta name="description" content="Master the 2000 most common French words with intensive drilling. No lives, no limits.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gamification.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Top Bar -->
+        <header id="top-bar">
+            <div class="logo">
+                <span class="logo-icon">🇫🇷</span>
+                <span class="logo-text">Parlez</span>
+            </div>
+            <div class="stats-bar">
+                <div class="stat" id="stat-streak">
+                    <span class="stat-icon">🔥</span>
+                    <span class="stat-value" id="streak-count">0</span>
+                </div>
+                <div class="stat" id="stat-mastered">
+                    <span class="stat-icon">⭐</span>
+                    <span class="stat-value" id="mastered-count">0</span>
+                    <span class="stat-label">/ <span id="total-words">2000</span></span>
+                </div>
+                <div class="stat" id="stat-accuracy">
+                    <span class="stat-icon">🎯</span>
+                    <span class="stat-value" id="accuracy-pct">0%</span>
+                </div>
+                <div class="stat" id="stat-time">
+                    <span class="stat-icon">⏱️</span>
+                    <span class="stat-value" id="session-time">0:00</span>
+                </div>
+                <div class="stat" id="achievement-stat" onclick="app.showAchievements()">
+                    <span class="stat-icon">🏆</span>
+                    <span class="stat-value" id="achievement-count">0/28</span>
+                </div>
+            </div>
+            <button id="settings-btn" class="icon-btn" aria-label="Settings">⚙️</button>
+        </header>
+
+        <!-- Progress Bar -->
+        <div id="progress-container">
+            <div id="progress-bar"></div>
+            <div id="progress-text">0% mastered</div>
+        </div>
+
+        <!-- XP Bar -->
+        <div id="xp-bar-container">
+            <div class="level-badge">LV <span id="level-display">1</span></div>
+            <div class="xp-bar-track"><div id="xp-fill"></div></div>
+            <span id="xp-label">0 / 50 XP</span>
+        </div>
+
+        <!-- Daily Goals -->
+        <div id="daily-goals"></div>
+
+        <!-- Main Screen: Start -->
+        <main id="screen-start" class="screen active">
+            <div class="start-content">
+                <div class="start-hero">
+                    <div class="hero-flag">🇫🇷</div>
+                    <h1>Parlez</h1>
+                    <p class="subtitle">Master 2000 French words & sentences. No lives. No limits.</p>
+                </div>
+                <div class="start-modes">
+                    <button class="mode-card" id="btn-typing" onclick="app.startSession('typing')">
+                        <span class="mode-icon">⌨️</span>
+                        <span class="mode-title">Typing Mining</span>
+                        <span class="mode-desc">Learn words by typing only (Hard)</span>
+                    </button>
+                    <button class="mode-card" id="btn-mc" onclick="app.startSession('mc')">
+                        <span class="mode-icon">🖱️</span>
+                        <span class="mode-title">Multiple Choice</span>
+                        <span class="mode-desc">Learn words by picking options (Easy)</span>
+                    </button>
+                    <button class="mode-card" id="btn-voice" onclick="app.startSession('voice')">
+                        <span class="mode-icon">🎧</span>
+                        <span class="mode-title">Voice Only</span>
+                        <span class="mode-desc">Listen in French, type in English</span>
+                    </button>
+                    <button class="mode-card" id="btn-sentences" onclick="app.startSession('sentences')">
+                        <span class="mode-icon">💬</span>
+                        <span class="mode-title">Sentences</span>
+                        <span class="mode-desc">Translate full sentences both ways</span>
+                    </button>
+                    <button class="mode-card" id="btn-review" onclick="app.startSession('review')" style="display:none;">
+                        <span class="mode-icon">🔄</span>
+                        <span class="mode-title">Review Weak</span>
+                        <span class="mode-desc">Drill words you struggle with</span>
+                    </button>
+                    <button class="mode-card mode-sprint" id="btn-sprint" onclick="app.startSession('sprint')">
+                        <span class="mode-icon">🏃</span>
+                        <span class="mode-title">2000 Sprint</span>
+                        <span class="mode-desc">Every word, one sitting. The ultimate test</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Main Screen: Exercise -->
+        <main id="screen-exercise" class="screen">
+            <div class="exercise-container">
+                <div id="exercise-type-label" class="exercise-label"></div>
+                <div id="exercise-prompt" class="exercise-prompt"></div>
+                <div id="exercise-hint" class="exercise-hint"></div>
+
+                <!-- Multiple Choice -->
+                <div id="choices-container" class="choices-grid"></div>
+
+                <!-- Type Answer -->
+                <div id="typing-container" class="typing-area" style="display:none;">
+                    <input type="text" id="type-input" class="type-input" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Type your answer...">
+                    <button id="type-submit" class="submit-btn" onclick="app.checkTyped()">Check</button>
+                </div>
+
+                <!-- Feedback -->
+                <!-- Combo Display -->
+                <div id="combo-display">
+                    <span class="combo-label">COMBO</span>
+                    <span class="combo-count">0</span>
+                    <span class="combo-mult">1.0x</span>
+                </div>
+
+                <div id="feedback" class="feedback" style="display:none;">
+                    <div id="feedback-icon" class="feedback-icon"></div>
+                    <div id="feedback-text" class="feedback-text"></div>
+                    <div id="feedback-detail" class="feedback-detail"></div>
+                    <button id="feedback-next" class="next-btn" onclick="app.nextExercise()">Continue</button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Settings Modal -->
+        <div id="settings-modal" class="modal" style="display:none;">
+            <div class="modal-content">
+                <h2>Settings</h2>
+                <div class="setting-group">
+                    <label>Exercise Types</label>
+                    <div class="toggle-row">
+                        <span>Multiple Choice (FR → EN)</span>
+                        <input type="checkbox" id="opt-mc-fr-en" checked>
+                    </div>
+                    <div class="toggle-row">
+                        <span>Multiple Choice (EN → FR)</span>
+                        <input type="checkbox" id="opt-mc-en-fr" checked>
+                    </div>
+                    <div class="toggle-row">
+                        <span>Type the French</span>
+                        <input type="checkbox" id="opt-type-fr" checked>
+                    </div>
+                    <div class="toggle-row">
+                        <span>Type the English</span>
+                        <input type="checkbox" id="opt-type-en" checked>
+                    </div>
+                    <div class="toggle-row">
+                        <span>Sentence Translation (FR → EN)</span>
+                        <input type="checkbox" id="opt-sent-fr-en" checked>
+                    </div>
+                    <div class="toggle-row">
+                        <span>Sentence Translation (EN → FR)</span>
+                        <input type="checkbox" id="opt-sent-en-fr" checked>
+                    </div>
+                </div>
+                <div class="setting-group">
+                    <label>Audio</label>
+                    <div class="toggle-row">
+                        <span>🔊 French Text-to-Speech</span>
+                        <input type="checkbox" id="opt-tts" checked>
+                    </div>
+                </div>
+                <div class="setting-group">
+                    <label>Batch Size (new words per round)</label>
+                    <select id="opt-batch-size">
+                        <option value="5">5</option>
+                        <option value="10" selected>10</option>
+                        <option value="20">20</option>
+                        <option value="50">50</option>
+                    </select>
+                </div>
+                <div class="modal-actions">
+                    <button class="btn-danger" onclick="app.resetProgress()">Reset All Progress</button>
+                    <button class="btn-primary" onclick="app.closeSettings()">Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Speed Round HUD -->
+    <div id="speed-hud">
+        <span class="speed-label">TIME</span>
+        <span id="speed-timer">60</span>
+        <span class="speed-label">SCORE</span>
+        <span id="speed-score">0</span>
+        <span class="speed-pts-label">PTS</span>
+    </div>
+
+    <!-- Sprint HUD -->
+    <div id="sprint-hud">
+        <span class="sprint-label">WORD</span>
+        <span id="sprint-current">0</span>
+        <div class="sprint-divider"></div>
+        <span id="sprint-total">2000</span>
+        <span id="sprint-pct">0%</span>
+    </div>
+
+    <script src="words.js"></script>
+    <script src="sentences.js"></script>
+    <script src="gamification.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

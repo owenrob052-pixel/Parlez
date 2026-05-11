@@ -1,0 +1,169 @@
+# Adjectives, Adverbs, Prepositions, Phrases (1051-1400)
+grand|big, tall
+petit|small, little
+bon|good
+mauvais|bad
+beau|beautiful, handsome
+joli|pretty
+laid|ugly
+jeune|young
+vieux|old
+nouveau|new
+ancien|old, ancient, former
+moderne|modern
+simple|simple
+facile|easy
+difficile|difficult
+dur|hard, tough
+doux|soft, sweet, gentle
+léger|light (weight)
+lourd|heavy
+rapide|fast
+lent|slow
+chaud|hot, warm
+froid|cold
+sec|dry
+mouillé|wet
+propre|clean, own
+sale|dirty
+plein|full
+vide|empty
+ouvert|open
+fermé|closed
+large|wide
+étroit|narrow
+épais|thick
+mince|thin
+profond|deep
+heureux|happy
+triste|sad
+content|happy, pleased
+fâché|angry
+inquiet|worried
+surpris|surprised
+fatigué|tired
+malade|sick
+vivant|alive
+mort|dead
+riche|rich
+pauvre|poor
+cher|expensive, dear
+gratuit|free (no cost)
+important|important
+nécessaire|necessary
+possible|possible
+impossible|impossible
+certain|certain, sure
+sûr|sure, safe
+vrai|true
+faux|false, fake
+normal|normal
+bizarre|strange, weird
+drôle|funny
+sérieux|serious
+gentil|kind, nice
+méchant|mean, naughty
+poli|polite
+intelligent|intelligent
+stupide|stupid
+fou|crazy
+brave|brave
+courageux|courageous
+timide|shy
+calme|calm
+nerveux|nervous
+curieux|curious
+jaloux|jealous
+fier|proud
+seul|alone
+ensemble|together
+dernier|last
+prochain|next
+premier|first
+deuxième|second
+troisième|third
+rouge|red
+bleu|blue
+vert|green
+jaune|yellow
+blanc|white
+noir|black
+gris|gray
+rose|pink
+marron|brown
+violet|purple
+clair|clear, light
+foncé|dark (color)
+sombre|dark, gloomy
+brillant|brilliant, shiny
+toujours|always
+jamais|never
+souvent|often
+parfois|sometimes
+rarement|rarely
+déjà|already
+encore|still, again, more
+bientôt|soon
+maintenant|now
+aujourd'hui|today
+demain|tomorrow
+hier|yesterday
+tôt|early
+tard|late
+vite|quickly, fast
+lentement|slowly
+doucement|gently, softly
+soudain|suddenly
+seulement|only
+vraiment|really
+exactement|exactly
+probablement|probably
+certainement|certainly
+peut-être|maybe, perhaps
+bien sûr|of course
+environ|about, approximately
+presque|almost
+assez|enough, quite
+trop|too much
+beaucoup|a lot, much
+très|very
+peu|little, few
+plutôt|rather
+surtout|especially, above all
+d'abord|first of all
+ensuite|then, next
+enfin|finally
+puis|then
+donc|so, therefore
+aussi|also, too
+cependant|however
+pourtant|yet, however
+quand même|still, anyway
+sinon|otherwise
+autrement|otherwise
+en fait|in fact, actually
+en effet|indeed
+par exemple|for example
+c'est-à-dire|that is to say
+à cause de|because of
+grâce à|thanks to
+au lieu de|instead of
+malgré|despite
+pendant|during
+depuis|since, for (time)
+jusqu'à|until
+vers|toward
+contre|against
+parmi|among
+entre|between
+selon|according to
+à travers|through, across
+au-dessus|above
+au-dessous|below
+devant|in front of
+derrière|behind
+à côté de|next to
+loin de|far from
+près de|near
+autour de|around
+chez|at (someone's place)

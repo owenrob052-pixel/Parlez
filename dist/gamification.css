@@ -1,0 +1,345 @@
+/* ===== GAMIFICATION — GLASSMORPHIC STYLES ===== */
+
+/* XP Bar */
+#xp-bar-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 16px;
+    background: rgba(10, 12, 22, 0.5);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border-bottom: 1px solid var(--glass-border);
+}
+.level-badge {
+    background: linear-gradient(135deg, var(--accent), #059669);
+    color: #fff;
+    font-weight: 800;
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    border-radius: 14px;
+    min-width: 36px;
+    text-align: center;
+    box-shadow: 0 0 16px var(--accent-glow);
+    border: 1px solid rgba(255,255,255,0.15);
+}
+.xp-bar-track {
+    flex: 1;
+    height: 12px;
+    background: var(--glass);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.05);
+    box-shadow: inset 0 2px 10px rgba(0,0,0,0.5);
+    position: relative; /* ensure sparks are visible if they go out, but we removed overflow:hidden */
+}
+#xp-fill {
+    height: 100%;
+    width: 0%;
+    /* Vibrant energy core */
+    background: linear-gradient(90deg, #065f46 0%, #059669 40%, #10b981 80%, #34d399 100%);
+    border-radius: 10px;
+    transition: width 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.6);
+    position: relative;
+}
+
+/* Leading edge glowing core */
+#xp-fill::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) translateX(5px);
+    width: 8px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #fff, 0 0 20px #34d399, 0 0 30px #10b981;
+    animation: overchargePulse 0.5s alternate infinite;
+}
+
+/* Sparks shooting out from the front */
+#xp-fill::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 3px;
+    height: 3px;
+    background: #fff;
+    border-radius: 50%;
+    animation: emitSparks 0.8s linear infinite;
+    pointer-events: none;
+}
+
+@keyframes overchargePulse {
+    0% { filter: brightness(1) drop-shadow(0 0 2px #fff); }
+    100% { filter: brightness(1.3) drop-shadow(0 0 6px #a7f3d0); transform: translateY(-50%) translateX(5px) scale(1.3); }
+}
+
+@keyframes emitSparks {
+    0% {
+        box-shadow: 
+            0px 0px 2px rgba(255, 255, 255, 1),
+            0px 0px 1px rgba(167, 243, 208, 1),
+            0px 0px 3px rgba(52, 211, 153, 1),
+            0px 0px 2px rgba(16, 185, 129, 1);
+        opacity: 1;
+    }
+    100% {
+        box-shadow: 
+            35px -25px 0px -1px rgba(255, 255, 255, 0),
+            25px 30px 0px -1px rgba(167, 243, 208, 0),
+            45px 5px 0px -1px rgba(52, 211, 153, 0),
+            15px -35px 0px -1px rgba(16, 185, 129, 0);
+        opacity: 0;
+    }
+}
+#xp-label {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    min-width: 70px;
+    text-align: right;
+    font-weight: 500;
+}
+
+/* XP Popup */
+.xp-popup {
+    position: fixed;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--accent-light);
+    pointer-events: none;
+    z-index: 300;
+    animation: xpFloat 0.8s ease forwards;
+    text-shadow: 0 0 16px var(--accent-glow);
+}
+@keyframes xpFloat {
+    0% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-30px); }
+}
+
+/* Combo Display */
+#combo-display {
+    display: none;
+    position: fixed;
+    top: 110px;
+    right: 24px;
+    flex-direction: column;
+    align-items: center;
+    z-index: 150;
+    pointer-events: none;
+    background: var(--glass);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-md);
+    padding: 12px 16px;
+}
+.combo-count {
+    font-size: 2.8rem;
+    font-weight: 900;
+    background: linear-gradient(135deg, #f87171, #fbbf24, #f87171);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: comboGlow 1s ease infinite;
+    line-height: 1;
+}
+.combo-label {
+    font-size: 0.6rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.combo-mult {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--warning);
+    text-shadow: 0 0 12px rgba(251,191,36,0.4);
+}
+@keyframes comboGlow {
+    0%,100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+.combo-pulse { animation: comboPop 0.3s ease; }
+@keyframes comboPop {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+    100% { transform: scale(1); }
+}
+
+/* Level Up Overlay */
+.levelup-overlay {
+    position: fixed;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-20px);
+    background: var(--glass);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    padding: 15px 30px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5), 0 0 20px rgba(16, 185, 129, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 500;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.levelup-overlay.show { 
+    opacity: 1; 
+    transform: translateX(-50%) translateY(0);
+}
+.levelup-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: left;
+}
+.levelup-stars { font-size: 2rem; filter: drop-shadow(0 0 10px rgba(251,191,36,0.4)); margin: 0; }
+.levelup-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--accent-light);
+    margin-bottom: 2px;
+}
+.levelup-level {
+    font-size: 1.5rem;
+    font-weight: 900;
+    background: linear-gradient(135deg, #fff, var(--accent-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1;
+}
+.levelup-subtitle {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.7);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Achievement Popup — Glass Toast */
+.achievement-popup {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%) translateY(100px);
+    background: rgba(18, 20, 38, 0.75);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid var(--accent);
+    border-radius: var(--radius-lg);
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    z-index: 400;
+    box-shadow: 0 0 40px var(--accent-glow), var(--shadow-lg), inset 0 1px 0 rgba(255,255,255,0.08);
+    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    min-width: 300px;
+}
+.achievement-popup.show { transform: translateX(-50%) translateY(0); }
+.ach-icon { font-size: 2.5rem; filter: drop-shadow(0 0 8px rgba(251,191,36,0.3)); }
+.ach-unlocked { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 2px; color: var(--accent-light); font-weight: 600; }
+.ach-title { font-size: 1.1rem; font-weight: 700; color: var(--text-primary); }
+.ach-desc { font-size: 0.8rem; color: var(--text-secondary); }
+
+/* Daily Goals — Glass Bar */
+#daily-goals {
+    display: flex;
+    gap: 16px;
+    padding: 8px 16px;
+    background: rgba(10, 12, 22, 0.4);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--glass-border);
+    overflow-x: auto;
+}
+.daily-goal {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 140px;
+    padding: 4px 0;
+}
+.daily-goal.daily-done .daily-icon { animation: doneShine 1s ease infinite; }
+@keyframes doneShine { 0%,100% { transform: scale(1); } 50% { transform: scale(1.15); } }
+.daily-icon { font-size: 1.1rem; flex-shrink: 0; }
+.daily-info { flex: 1; min-width: 0; }
+.daily-label { font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
+.daily-bar-bg {
+    height: 4px;
+    background: var(--glass);
+    border-radius: 2px;
+    overflow: hidden;
+    margin-top: 2px;
+}
+.daily-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    border-radius: 2px;
+    transition: width 0.4s ease;
+    box-shadow: 0 0 6px var(--accent-glow);
+}
+.daily-nums { font-size: 0.7rem; color: var(--text-muted); white-space: nowrap; }
+
+/* Speed Round HUD — Glass Panel */
+#speed-hud {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 24px;
+    transform: translateY(-50%);
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    z-index: 150;
+    background: rgba(248, 113, 113, 0.06);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(248, 113, 113, 0.25);
+    border-radius: var(--radius-md);
+    padding: 18px 14px;
+    box-shadow: 0 0 30px rgba(248, 113, 113, 0.1), inset 0 1px 0 rgba(255,255,255,0.05);
+}
+.speed-label { font-size: 0.6rem; text-transform: uppercase; letter-spacing: 2px; color: var(--error); font-weight: 600; }
+#speed-timer {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--error);
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+    text-shadow: 0 0 16px rgba(248, 113, 113, 0.4);
+}
+#speed-score {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--warning);
+    text-shadow: 0 0 12px rgba(251, 191, 36, 0.3);
+}
+.speed-pts-label { font-size: 0.6rem; color: var(--text-muted); text-transform: uppercase; }
+
+/* Achievement count in header */
+#achievement-stat { cursor: pointer; }
+#achievement-stat:hover { color: var(--accent-light); }
+
+/* Start screen — speed round card glass highlight */
+.mode-card.mode-speed { border-color: rgba(248, 113, 113, 0.2); }
+.mode-card.mode-speed:hover {
+    border-color: rgba(248, 113, 113, 0.5);
+    box-shadow: 0 0 30px rgba(248, 113, 113, 0.15), inset 0 1px 0 rgba(255,255,255,0.06);
+}
+
+/* Sprint card */
+.mode-card.mode-sprint { border-color: rgba(16, 185, 129, 0.25); }
+.mode-card.mode-sprint:hover {
+    border-color: rgba(16, 185, 129, 0.6);
+    box-shadow: 0 0 30px rgba(16, 185, 129, 0.2), inset 0 1px 0 rgba(255,255,255,0.08);
+}
