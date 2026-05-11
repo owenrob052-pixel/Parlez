@@ -497,7 +497,6 @@ const app = {
         choicesEl.innerHTML = '';
         choicesEl.style.display = 'none';
         typingEl.style.display = 'none';
-        document.getElementById('accent-bar').style.display = 'none';
 
         const input = document.getElementById('type-input');
         input.value = '';
@@ -522,7 +521,6 @@ const app = {
                 promptEl.textContent = sent.en;
                 hintEl.textContent = `Hint: ${sent.fr.split(' ')[0]}...`;
                 typingEl.style.display = 'flex';
-                document.getElementById('accent-bar').style.display = 'flex';
                 input.placeholder = 'Type the French translation...';
                 setTimeout(() => input.focus(), 50);
             }
@@ -549,7 +547,6 @@ const app = {
             promptEl.textContent = word.en;
             hintEl.textContent = `Hint: ${word.fr.charAt(0)}${'_'.repeat(Math.max(0, word.fr.length - 1))}`;
             typingEl.style.display = 'flex';
-            document.getElementById('accent-bar').style.display = 'flex';
             input.placeholder = 'Type in French...';
             setTimeout(() => input.focus(), 50);
         } else if (ex.type === 'type-en') {
@@ -836,10 +833,6 @@ const app = {
             document.getElementById('choices-container').style.display = 'none';
             const typingEl = document.getElementById('typing-container');
             typingEl.style.display = 'flex';
-            // Show accent bar if the correction requires typing French
-            const ex = this.currentExercise;
-            const needsFrench = ex && (ex.type === 'type-fr' || ex.type === 'sent-en-fr');
-            document.getElementById('accent-bar').style.display = needsFrench ? 'flex' : 'none';
             
             const input = document.getElementById('type-input');
             input.disabled = false;
@@ -964,17 +957,6 @@ const app = {
             // 4. Reload the page safely (without deprecated boolean args)
             window.location.href = window.location.href;
         }
-    },
-
-    // ===== ACCENT INSERTION =====
-    insertAccent(char) {
-        const input = document.getElementById('type-input');
-        const start = input.selectionStart;
-        const end = input.selectionEnd;
-        const val = input.value;
-        input.value = val.slice(0, start) + char + val.slice(end);
-        input.selectionStart = input.selectionEnd = start + char.length;
-        input.focus();
     },
 
     // ===== UTILS =====
